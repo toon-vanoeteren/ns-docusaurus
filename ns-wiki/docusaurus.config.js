@@ -52,7 +52,7 @@ const config = {
       },
     ],
   ],
-  
+
   presets: [
     [
       'classic',
@@ -158,6 +158,10 @@ const config = {
                 label: 'Contribute',
                 position: 'right',
             },
+            {
+              type: 'search',
+              position: 'right',
+            },            
         ],
       },
       footer: {
