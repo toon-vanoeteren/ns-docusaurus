@@ -13,7 +13,7 @@ title: Virtual Network Gateway
 
 <summary>Click to view design drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/various/design_vgw.png)
+<!-- ![smol drawing](/img/azure/standards/networking/various/design_vgw.png) -->
 
 </details>
 

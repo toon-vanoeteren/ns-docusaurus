@@ -9,7 +9,7 @@ Azure NAT Gateway is a fully managed and highly resilient Network Address Transl
 
 NAT Gateway provides dynamic SNAT port functionality to automatically scale outbound connectivity and reduce the risk of SNAT port exhaustion.
 
-![NAT - High level](/img/azure/standards/networking/various/natgateway_highlevel.png)
+<!-- ![NAT - High level](/img/azure/standards/networking/various/natgateway_highlevel.png) -->
 
 
 ## Azure NAT Gateway basics
@@ -35,7 +35,7 @@ NAT Gateway uses software defined networking to operate as a distributed and ful
 
 NAT Gateway provides source network address translation (SNAT) for private instances within subnets of your Azure virtual network. When configured on a subnet, the private IPs within your subnets SNAT to a NAT Gateway's static public IP addresses to connect outbound to the Internet. NAT Gateway also provides destination network address translation (DNAT) for response packets to an outbound originated connection only.
 
-![NAT - High level](/img/azure/standards/networking/various/natgateway_architecture.png)
+<!-- ![NAT - High level](/img/azure/standards/networking/various/natgateway_architecture.png) -->
 
 When a NAT Gateway is attached to a subnet within a virtual network, the NAT Gateway assumes the subnet’s default next hop type for all outbound traffic directed to the internet. No extra routing configurations are required. NAT Gateway doesn't provide unsolicited inbound connections from the internet. DNAT is only performed for packets that arrive as a response to an outbound packet.
 
@@ -92,7 +92,7 @@ To have more control over the outgoing public IP, our standard solution is a For
 
 <summary>Click to view FortiGate design drawing</summary>
 
-![FortiGate design Azure](/img/azure/standards/networking/fw_design_fgt.png)
+<!-- ![FortiGate design Azure](/img/azure/standards/networking/fw_design_fgt.png) -->
 
 </details>
 

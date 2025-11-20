@@ -9,7 +9,7 @@ title: Subnet
 
 <summary>Click to view drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/design_snet.png)
+<!-- ![smol drawing](/img/azure/standards/networking/design_snet.png) -->
 
 </details>
 
@@ -101,7 +101,7 @@ Service endpoints are managed exclusively by O.Azure.
 
 As mentioned before, private endpoints are used to stop exposing public endpoints. They do this by utilizing a private IP within a subnet, and propagating this new private IP as a /32 to the rest of the network so that it takes priority. On the subnet however you can define whether you want this behavior to occur or not.
 
-![smol drawing](/img/azure/standards/networking/various/subnetpe.png)
+<!-- ![smol drawing](/img/azure/standards/networking/various/subnetpe.png) -->
 
 By enabling the "route tables" flag, you ensure that the route tables are still being followed - and the /32 propagation behavior is disabled.
 

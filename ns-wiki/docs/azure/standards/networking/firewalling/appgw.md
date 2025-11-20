@@ -15,7 +15,7 @@ Because the Azure Application Gateway is attached directly to the Internet, it h
 
 <summary>Click to view design drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/design_agw.png)
+<!-- ![smol drawing](/img/azure/standards/networking/design_agw.png) -->
 
 </details>
 

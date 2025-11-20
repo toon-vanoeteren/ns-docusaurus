@@ -13,7 +13,7 @@ It is  management interface to facilitate the configuration of the communication
 
 <summary>Click to view high level overview of vWAN</summary>
 
-![vWAN High Level](/img/azure/standards/networking/various/vwan-highlevel.png)
+<!-- ![vWAN High Level](/img/azure/standards/networking/various/vwan-highlevel.png) -->
 
 </details>
 

@@ -9,7 +9,7 @@ title: Route Table
 
 <summary>Click to view drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/design_snet.png)
+<!-- ![smol drawing](/img/azure/standards/networking/design_snet.png) -->
 
 </details>
 

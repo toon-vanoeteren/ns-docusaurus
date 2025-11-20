@@ -9,7 +9,7 @@ title: NVA - PfSense
 
 <summary>Click to view design drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/fw_design_pfs.png)
+<!-- ![smol drawing](/img/azure/standards/networking/fw_design_pfs.png) -->
 
 </details>
 

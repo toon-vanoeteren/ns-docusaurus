@@ -19,7 +19,7 @@ title: NSG
 
 The rulebase is a numbered sequence and will be handled from top to bottom. When creating an NSG, a set of default firewall rules will be applied. These rules start with a priority of 65000 and **cannot** be modified or removed.  
   
-![Default NSG ruleset](/img/azure/standards/networking/various/nsg_ruleset.png)
+<!-- ![Default NSG ruleset](/img/azure/standards/networking/various/nsg_ruleset.png) -->
 
 ## Custom rules
 

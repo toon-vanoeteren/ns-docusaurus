@@ -9,7 +9,7 @@ title: NVA - Checkpoint
 
 <summary>Click to view design drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/fw_design_cpg.png)
+<!-- ![smol drawing](/img/azure/standards/networking/fw_design_cpg.png) -->
 
 </details>
 

@@ -9,7 +9,7 @@ title: Virtual Network
 
 <summary>Click to view drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/design_vnet.png)
+<!-- ![smol drawing](/img/azure/standards/networking/design_vnet.png) -->
 
 </details>
 
@@ -92,7 +92,7 @@ Always make sure that this setting correctly points to the DNS servers of the te
 
 <summary>Click to view drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/design_peering.png)
+<!-- ![smol drawing](/img/azure/standards/networking/design_peering.png) -->
 
 </details>
 
@@ -119,11 +119,11 @@ Please follow below standards.
 
 #### Peering from a Hub to a Spoke
 
-![hubtospoke](/img/azure/standards/networking/various/hubtospoke.png)
+<!-- ![hubtospoke](/img/azure/standards/networking/various/hubtospoke.png) -->
 
 #### Peering from a Spoke to a Hub
 
-![spoketohub](/img/azure/standards/networking/various/spoketohub.png)
+<!-- ![spoketohub](/img/azure/standards/networking/various/spoketohub.png) -->
 
 ## Endpoints
 

@@ -12,7 +12,7 @@ The Local Network Gateway (LGW) contains information of the VPN peer IP and its 
 
 <summary>Click to view design drawing</summary>
 
-![smol drawing](/img/azure/standards/networking/various/design_lgw.png)
+<!-- ![smol drawing](/img/azure/standards/networking/various/design_lgw.png) -->
 
 </details>
 
