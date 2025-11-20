@@ -40,6 +40,19 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true,    // index documentation pages
+        indexBlog: false,   // index blog posts if you have them
+        indexPages: true,   // index other pages
+        language: 'en',     // language of your docs
+        searchBarShortcut: 's', // optional shortcut
+      },
+    ],
+  ],
+  
   presets: [
     [
       'classic',
