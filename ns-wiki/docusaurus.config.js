@@ -83,24 +83,45 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Cegeka - NS',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'standardsSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+            {
+                type: 'dropdown',
+                label: 'Azure',
+                position: 'left',
+                items: [
+                    {
+                        to: 'docs/azure/engineering',
+                        label: 'Engineering',
+                    },
+                    {
+                        to: 'docs/azure/services',
+                        label: 'Services',
+                    },
+                    {
+                        to: 'docs/azure/standards',
+                        label: 'Standards',
+                    },
+                    {
+                        to: 'docs/azure/processes',
+                        label: 'Processes',
+                    }
+                ],
+            },
+            {
+                to: '/glossary',
+                label: 'Glossary',
+                position: 'right',
+            },
+            {
+                to: '/contribute',
+                label: 'Contribute',
+                position: 'right',
+            },
         ],
       },
       footer: {
