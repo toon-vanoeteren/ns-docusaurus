@@ -113,6 +113,29 @@ const config = {
                 ],
             },
             {
+                type: 'dropdown',
+                label: 'Onprem',
+                position: 'left',
+                items: [
+                    {
+                        to: 'docs/azure/engineering',
+                        label: 'Engineering',
+                    },
+                    {
+                        to: 'docs/azure/services',
+                        label: 'Services',
+                    },
+                    {
+                        to: 'docs/azure/standards',
+                        label: 'Standards',
+                    },
+                    {
+                        to: 'docs/azure/processes',
+                        label: 'Processes',
+                    }
+                ],
+            },            
+            {
                 to: '/glossary',
                 label: 'Glossary',
                 position: 'right',
