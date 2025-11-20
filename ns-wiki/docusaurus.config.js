@@ -48,7 +48,6 @@ const config = {
         indexBlog: false,   // index blog posts if you have them
         indexPages: true,   // index other pages
         language: 'en',     // language of your docs
-        searchBarShortcut: 's', // optional shortcut
       },
     ],
   ],
