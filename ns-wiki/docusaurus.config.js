@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DocuDirk',
-  tagline: 'Stepping away from the medieval times',
+  tagline: 'Stepping away from the 1980s',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -95,7 +95,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Docs',
+        title: 'DocuDirk',
         logo: {
           alt: 'Cegeka - NS',
           src: 'img/logo.svg',
@@ -126,7 +126,7 @@ const config = {
             },
             {
                 type: 'dropdown',
-                label: 'Onprem',
+                label: 'Cisco',
                 position: 'left',
                 items: [
                     {
@@ -146,7 +146,53 @@ const config = {
                         label: 'Processes',
                     }
                 ],
-            },            
+            }, 
+            {
+                type: 'dropdown',
+                label: 'Fortinet',
+                position: 'left',
+                items: [
+                    {
+                        to: 'docs/azure/engineering',
+                        label: 'Engineering',
+                    },
+                    {
+                        to: 'docs/azure/services',
+                        label: 'Services',
+                    },
+                    {
+                        to: 'docs/azure/standards',
+                        label: 'Standards',
+                    },
+                    {
+                        to: 'docs/azure/processes',
+                        label: 'Processes',
+                    }
+                ],
+            },
+            {
+                type: 'dropdown',
+                label: 'F5',
+                position: 'left',
+                items: [
+                    {
+                        to: 'docs/azure/engineering',
+                        label: 'Engineering',
+                    },
+                    {
+                        to: 'docs/azure/services',
+                        label: 'Services',
+                    },
+                    {
+                        to: 'docs/azure/standards',
+                        label: 'Standards',
+                    },
+                    {
+                        to: 'docs/azure/processes',
+                        label: 'Processes',
+                    }
+                ],
+            },                                   
             {
                 to: '/glossary',
                 label: 'Glossary',
