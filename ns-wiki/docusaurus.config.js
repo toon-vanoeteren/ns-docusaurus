@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NS Documentation',
+  title: 'DocuDirk',
   tagline: 'Stepping away from the medieval times',
   favicon: 'img/favicon.ico',
 
