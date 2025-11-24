@@ -130,19 +130,19 @@ const config = {
                 position: 'left',
                 items: [
                     {
-                        to: 'docs/azure/engineering',
+                        to: 'docs/cisco/engineering',
                         label: 'Engineering',
                     },
                     {
-                        to: 'docs/azure/services',
+                        to: 'docs/cisco/services',
                         label: 'Services',
                     },
                     {
-                        to: 'docs/azure/standards',
+                        to: 'docs/cisco/standards',
                         label: 'Standards',
                     },
                     {
-                        to: 'docs/azure/processes',
+                        to: 'docs/cisco/processes',
                         label: 'Processes',
                     }
                 ],
@@ -153,19 +153,19 @@ const config = {
                 position: 'left',
                 items: [
                     {
-                        to: 'docs/azure/engineering',
+                        to: 'docs/fortinet/engineering',
                         label: 'Engineering',
                     },
                     {
-                        to: 'docs/azure/services',
+                        to: 'docs/fortinet/services',
                         label: 'Services',
                     },
                     {
-                        to: 'docs/azure/standards',
+                        to: 'docs/fortinet/standards',
                         label: 'Standards',
                     },
                     {
-                        to: 'docs/azure/processes',
+                        to: 'docs/fortinet/processes',
                         label: 'Processes',
                     }
                 ],
@@ -176,19 +176,19 @@ const config = {
                 position: 'left',
                 items: [
                     {
-                        to: 'docs/azure/engineering',
+                        to: 'docs/f5/engineering',
                         label: 'Engineering',
                     },
                     {
-                        to: 'docs/azure/services',
+                        to: 'docs/f5/services',
                         label: 'Services',
                     },
                     {
-                        to: 'docs/azure/standards',
+                        to: 'docs/f5/standards',
                         label: 'Standards',
                     },
                     {
-                        to: 'docs/azure/processes',
+                        to: 'docs/f5/processes',
                         label: 'Processes',
                     }
                 ],
