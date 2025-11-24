@@ -25,6 +25,14 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  // Add scripts here:
+  scripts: [
+    {
+      src: "http://20.199.85.40:3001/embed/anythingllm-chat-widget.min.js",
+      async: true,
+    },
+  ],  
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
