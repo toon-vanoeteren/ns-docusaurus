@@ -192,7 +192,30 @@ const config = {
                         label: 'Processes',
                     }
                 ],
-            },                                   
+            },
+            {
+                type: 'dropdown',
+                label: 'Palo Alto',
+                position: 'left',
+                items: [
+                    {
+                        to: 'docs/palo-alto/engineering',
+                        label: 'Engineering',
+                    },
+                    {
+                        to: 'docs/palo-alto/services',
+                        label: 'Services',
+                    },
+                    {
+                        to: 'docs/palo-alto/standards',
+                        label: 'Standards',
+                    },
+                    {
+                        to: 'docs/palo-alto/processes',
+                        label: 'Processes',
+                    }
+                ],
+            },                                               
             {
                 to: '/glossary',
                 label: 'Glossary',
