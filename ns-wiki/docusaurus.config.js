@@ -28,7 +28,7 @@ const config = {
   // Add scripts here:
   scripts: [
     {
-      src: "http://20.199.85.40:3001/embed/anythingllm-chat-widget.min.js",
+      src: "http://172.16.0.5:3001/embed/anythingllm-chat-widget.min.js",
       async: true,
     },
   ],  
