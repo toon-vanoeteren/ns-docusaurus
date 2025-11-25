@@ -26,12 +26,12 @@ const config = {
   baseUrl: '/',
 
   // Add scripts here:
-  // scripts: [
-  //   {
-  //     src: "http://172.16.0.5:3001/embed/anythingllm-chat-widget.min.js",
-  //     async: true,
-  //   },
-  // ],  
+  scripts: [
+    {
+      src: "http://172.16.0.5:3001/embed/anythingllm-chat-widget.min.js",
+      async: true,
+    },
+  ],  
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
